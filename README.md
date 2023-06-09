@@ -71,9 +71,9 @@ Private leaderboard：0.710069 / Rank 4
 </center>
 
 ### Sent retrieval模型:
-<center>
+<p align="center">
 
-![image](image/Sent_retrieval_train.png)
+![image](image/sent_retrieval_train.png)
 
 #### Sent retrieval Hyperparameter
 |Hyperparameter|	value	|Hyperparameter|	value|
@@ -85,7 +85,7 @@ Private leaderboard：0.710069 / Rank 4
 |kfold	|5	|kfold |vote	|majority|
 
 
-</center>
+</p>
 
 
 ### Enough Verification模型:
