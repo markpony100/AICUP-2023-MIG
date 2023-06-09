@@ -1,0 +1,10 @@
+wikimapper
+transformers
+hanlp
+opencc
+wikipedia
+sentence-transformers
+ckip-transformers
+pandas
+pandarallel
+datasets
