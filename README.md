@@ -166,7 +166,7 @@ pip3 install -r requirements.txt
 pip3 install accelerate -U
 ```
 ### step3 : please download our data_and_model.zip, unzip and put it in main directory
-[data and model checkpoint](https://CSMIG.quickconnect.to/d/s/tuUh6pvfGgeQ596AutCmef6wWfOK2FM5/4ov2FFGow2wOV3K_wTAPq1JpsVgSfgdI-PL9gAzD2gAousp=drive_link)
+[data and model checkpoint](https://CSMIG.quickconnect.to/d/s/tuUh6pvfGgeQ596AutCmef6wWfOK2FM5/4ov2FFGow2wOV3K_wTAPq1JpsVgSfgdI-PL9gAzD2gAo)
 
 ### step4 : please run our shell
 ``` bash
