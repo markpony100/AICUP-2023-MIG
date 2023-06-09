@@ -32,7 +32,7 @@ pip3 install accelerate -U
 └── utils.py
 
 ## please download our data_and_model.zip, unzip and put it in main directory
-data and model checkpoint: https://docs.google.com/document/d/1h1ZzWUkmqbb994-Exv9vkVZihn6VP8ro3hDMqAOaFzA/edit?usp=drive_link
+[data and model checkpoint](https://CSMIG.quickconnect.to/d/s/tuUh6pvfGgeQ596AutCmef6wWfOK2FM5/4ov2FFGow2wOV3K_wTAPq1JpsVgSfgdI-PL9gAzD2gAousp=drive_link)
 
 
 ## run pipeline
