@@ -56,8 +56,10 @@ Private leaderboard：0.710069 / Rank 4
 ***以下模型統一使用哈爾濱工業大學的[PERT large](https://huggingface.co/hfl/chinese-pert-large)*** 
 ### Doc retrieval 2模型:
 <center>
+<p align="center">
+  <img src="image/Doc_retrieval2_train.png" alt="Doc_retrieval2 image"/>
+</p>
 
-![image](image/Doc_retrieval2_train.png)
 #### Doc retrieval 2 Hyperparameter
 |Hyperparameter|	value	|Hyperparameter|	value|
 |---|---|---|---|
@@ -71,9 +73,10 @@ Private leaderboard：0.710069 / Rank 4
 </center>
 
 ### Sent retrieval模型:
+<center>
 <p align="center">
-
-![image](image/sent_retrieval_train.png)
+  <img src="image/sent_retrieval_train.png" alt="Doc_retrieval2 image"/>
+</p>
 
 #### Sent retrieval Hyperparameter
 |Hyperparameter|	value	|Hyperparameter|	value|
@@ -85,13 +88,14 @@ Private leaderboard：0.710069 / Rank 4
 |kfold	|5	|kfold |vote	|majority|
 
 
-</p>
+</center>
 
 
 ### Enough Verification模型:
 <center>
-
-![image](image/Enough_Verification_train.png)
+<p align="center">
+  <img src="image/Enough_Verification_train.png" alt="Doc_retrieval2 image"/>
+</p>
 
 #### Enough Verification Hyperparameter
 |Hyperparameter|	value	|Hyperparameter|	value|
@@ -109,7 +113,10 @@ Private leaderboard：0.710069 / Rank 4
 ### Claim Verification模型:
 <center>
 
-![image](image/Claim_Verification_train.png)
+<p align="center">
+  <img src="image/Claim_Verification_train.png" alt="Doc_retrieval2 image"/>
+</p>
+
 #### Claim Verification Hyperparameter
 |Hyperparameter|	value	|Hyperparameter|	value|
 |---|---|---|---|
