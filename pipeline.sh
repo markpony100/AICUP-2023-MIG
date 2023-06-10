@@ -3,11 +3,13 @@
 echo preprocess data
 cd preprocess
 python3 preprocess_train.py
+
 #cluster claim cost around 8~12 hr
 #you can use processed one in processed data but put it in ./preprocess/cluster/processing_file
 echo clustering
 cd cluster
 python3 full.py
+
 #do document retrieval1
 echo doc retrieval 1
 cd ../../doc1
@@ -27,16 +29,18 @@ bash kf_predict_page.sh
 #postprocess doc retrieval 2
 cd postprocess
 python3 postprocess_page.py
+
 #do sent retreival preprocess
 echo sent retrieval
 cd ../preprocess
-#python3 preprocess_sent.py
+python3 preprocess_sent.py
 #train sent retrieval
 bash kf_train_sent.sh
 bash kf_predict_sent.sh
 #postprocess sent retrieval
 cd ../postprocess
 python3 postprocess_sent.py
+
 #preprocess enough 
 echo enough verification
 cd ../preprocess
@@ -45,6 +49,7 @@ python3 preprocess_enough.py
 cd ..
 bash kf_train_enough
 bash kf_predict_enough
+
 #preprocess claim
 echo claim verification
 cd preprocess
@@ -53,6 +58,7 @@ python3 preprocess_claim.py
 cd ..
 bash kf_train_claim.sh
 bash kf_predict_claim.sh
+
 #do postprocess
 cd postprocess
 python3 postprocess_enough_claim.py
